@@ -1,0 +1,58 @@
+body{
+    color: lightblue;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    text-align: center;
+    border-style: solid;
+    background-color:yellow;
+    font-size: 20px;
+}
+a:hover {
+    color: green;
+}
+.gabe {
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+p#paragraph:first-letter {
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Button {
+    background-color: green;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:orangered;
+    text-align: center;
+}
+
+.social{
+    background-color: green
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orangered;    
+}
+
+.fixed {
+    position: fixed;
+    top: 50px;
+    left: 100px;
+}
+
+nav {
+    z-index: 10;
+}
+
+@media only screen and(max-width: 768px) {
+    #main-container {
+        width: 600px;
+    }
+}
